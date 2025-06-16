@@ -129,10 +129,8 @@ def main():
 
         if is_trained:
             st.metric("Accuracy", "77.06%")
-            st.metric("Parameters", "737,834")
         else:
             st.metric("Demo Accuracy", "~10%")
-            st.metric("Parameters", "737,834")
             st.metric("Status", "Untrained")
 
         st.write("Architecture: CNN")
